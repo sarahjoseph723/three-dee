@@ -8,6 +8,12 @@ screen = new_screen()
 color = [ 0, 255, 0 ]
 edges = []
 transform = new_matrix()
+f = open("script_3d")
+
+#print len(sys.argv)
+#for i in sys.argv:
+#    print i
+#print "--"
 
 if len(sys.argv) == 2:
     f = open(sys.argv[1])
